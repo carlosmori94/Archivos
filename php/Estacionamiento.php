@@ -39,6 +39,7 @@ class Estacionamiento
 			{
 				$ahora = date("Y-m-d H-i-s");
 				$diferencia = strtotime($ahora)-strtotime($auto[1]);//Las horas vienen en formato string , debo transformalas.
+				$diferencia = $diferencia * 15;
 				echo "Tiempo transcurrido ".$diferencia;
 				
 			}
