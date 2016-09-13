@@ -4,11 +4,11 @@
 </head>
 <body>
 	<H2>Ingrese patente</H2>
-	<form name="Patentes" action="Nexo.php" method="POST" >
+	<form action="Nexo.php" method="POST" >
 	  <P>Por favor, introduzca sus sugerencias:<BR>
-      <TEXTAREA rows="5" cols="30" name="Patente">Sus sugerencias aquí...</TEXTAREA><BR>
-      <INPUT type="hidden" name="identificador" value="Z87X09RF"><BR>
-      <INPUT type="submit" value="Entrar">   <INPUT type="reset" value="Salir">
+      <TEXTAREA rows="5" cols="30" name="Patente">Ingrese patente a registrar...</TEXTAREA><BR>
+      <INPUT type="submit" name="Entrar" value="Entrar">  
+       <INPUT type="submit" name= "Salir" value="Salir">
       
      
       
